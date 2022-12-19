@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mcdupe/static/css/main.701dd504.css",
+    "main.js": "/mcdupe/static/js/main.f78aac67.js",
+    "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
+    "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
+    "static/media/1PUB_Spotlight_Dorado_1168x520.jpg": "/mcdupe/static/media/1PUB_Spotlight_Dorado_1168x520.bd4f786a38bd0e73d5f5.jpg",
+    "static/media/1pub_DecemberTentpole_HP_Deals_1168x520.jpg": "/mcdupe/static/media/1pub_DecemberTentpole_HP_Deals_1168x520.ec5fdf477795a440e86a.jpg",
+    "static/media/1pub_McDeliveryintheApp_Launch_1168x520.jpg": "/mcdupe/static/media/1pub_McDeliveryintheApp_Launch_1168x520.d84a162cf2da27575ad4.jpg",
+    "static/media/1pub_McGoldCard_1168x520.jpg": "/mcdupe/static/media/1pub_McGoldCard_1168x520.e743f67be3a932a571f0.jpg",
+    "static/media/1PUB_BAPG_Scholars_EDU_1168x520.jpg": "/mcdupe/static/media/1PUB_BAPG_Scholars_EDU_1168x520.4596fcb48d837c952e02.jpg",
+    "static/media/1PUB_McDelivery_v4_1168x520.jpg": "/mcdupe/static/media/1PUB_McDelivery_v4_1168x520.35b3b7815e34317ebc11.jpg",
+    "static/media/google_play_badge.png": "/mcdupe/static/media/google_play_badge.513214132c00ef964087.png",
+    "static/media/app_store_badge.png": "/mcdupe/static/media/app_store_badge.00b1e701c5946b6f986e.png",
+    "index.html": "/mcdupe/index.html",
+    "main.701dd504.css.map": "/mcdupe/static/css/main.701dd504.css.map",
+    "main.f78aac67.js.map": "/mcdupe/static/js/main.f78aac67.js.map",
+    "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.701dd504.css",
+    "static/js/main.f78aac67.js"
+  ]
+}
