@@ -8,10 +8,10 @@ function App () {
     return (
         <>
 
-        {/* <Routes>
+        <Routes>
             <Route path='/' element={<HomePage />}/>
-        </Routes> */}
-        <HomePage/>
+        </Routes>
+        
     <NavUpperBottomMini/>
     <NavUpperBottom/>
 <NavBottom/>
