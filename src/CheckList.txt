@@ -12,3 +12,6 @@ git add .
 git commit -m "Deployed website"
 
 git push
+
+
+npm run deploy
