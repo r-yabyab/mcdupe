@@ -1,0 +1,199 @@
+
+
+.h1h1h1 {
+  font-size: 27px; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;          /*  These two*/      
+  width: 100%;              /*  makes it sticky on top*/
+} 
+
+
+.navLeft {
+  float: left;
+  margin-left: 20px;
+}
+
+.navRight {
+  float:right;
+  margin-right:20px;
+}
+
+.verySmall {
+  font-size: 11px;
+}
+
+.navPhoto {
+  max-width: 100px;
+  float:left;
+}
+
+.mainText {
+  padding: 80px 12px 80px 12px;
+
+}
+
+li {
+  list-style: none;
+}
+
+.imgCenter {
+  width: 100%;
+  max-width: 1020px;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width:1024px)
+{
+  .mainContainer {
+    padding-left:7px;
+    padding-right: 7px;
+    max-width: 1155px;
+  }
+  .contentContainer {
+    display: flex;
+    margin: 0px 7px 0px 7px;
+  }
+  .imgCenter {
+    min-width: 300px;
+    max-width: 900px;
+    float:left;
+    padding-right: 69px;
+    bottom:0px;
+    margin-top:17px;
+  }
+  .mainText {
+    display: block;
+    text-align: left;
+    float:right;
+    width: 380px;
+    color:blue;
+    margin-top:-70px;
+  }
+
+
+}
+
+
+
+.mainContainer {
+  position: relative;
+  padding: 0px 12px 0px 12px;
+  padding-top: 100px;
+  
+  margin:auto;
+  justify-content: center;
+  justify-items: center;
+}
+
+.navbarBottom {
+background-color: white;
+border-top: 1px solid lightgray;
+margin-top: 50px;
+padding-top:20px;
+padding-bottom: 20px;
+width: 100%;
+bottom: 0px;
+}
+
+.navbarBottomCenter {
+  text-align: center;
+}
+
+.navList {
+justify-content: center;
+  list-style: none;
+  display: flex;
+  position: block;
+}
+
+.navList li {
+  margin:10px 10px 10px 10px;
+}
+
+/* BottomNav.js */
+
+.NavUpperBottomContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.NavUpperBottomSection {
+  margin: 20px 40px 20px 40px;
+  max-width: 215px;
+}
+
+.NavUpperBottomSection li {
+  padding:.25em 0 .25em 0;
+}
+
+.NavUpperBottomStart {
+  margin-bottom: .75em;
+}
+
+
+.NavUpperBottomIcons{
+  display: block;
+  padding-bottom: 30px;
+  margin-right: 30px;
+}
+
+
+.NUBleft {
+  float:left;
+display: inline-flex;
+}
+
+
+.NUBleft li {
+margin:0 10px 0 10px;
+}
+
+.NUBright{
+  float:right;
+display: inline-flex;
+}
+
+      /* vvvvvv MiniQueried */
+
+.NUBminiContainer{
+  margin:0 22px 0 22px;
+  
+}
+
+.NUBminiSection{
+  display:flex;
+  position: relative;
+  margin:15px 0 15px 0;
+}
+
+.NUBminiSection:hover{
+  cursor:pointer;
+}
+
+.NUBminiLeft{
+  right:0;
+  color:red;
+  float:left;
+
+}
+  
+.NUBminiRight{
+float:right;
+position: absolute;
+right:0px;
+}
+
+/*  */
+
+
+.red {
+  color:blue;
+}
