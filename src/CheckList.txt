@@ -1,3 +1,14 @@
 Page needs unique:
 
 1. main content
+
+
+
+npm install gh-pages --save-dev
+
+//
+git add .
+
+git commit -m "Deployed website"
+
+git push
