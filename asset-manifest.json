@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdupe/static/css/main.701dd504.css",
-    "main.js": "/mcdupe/static/js/main.e0af9207.js",
+    "main.css": "/mcdupe/static/css/main.dcbdcfed.css",
+    "main.js": "/mcdupe/static/js/main.bc01fae6.js",
     "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
     "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
     "static/media/1PUB_Spotlight_Dorado_1168x520.jpg": "/mcdupe/static/media/1PUB_Spotlight_Dorado_1168x520.bd4f786a38bd0e73d5f5.jpg",
@@ -13,12 +13,12 @@
     "static/media/google_play_badge.png": "/mcdupe/static/media/google_play_badge.513214132c00ef964087.png",
     "static/media/app_store_badge.png": "/mcdupe/static/media/app_store_badge.00b1e701c5946b6f986e.png",
     "index.html": "/mcdupe/index.html",
-    "main.701dd504.css.map": "/mcdupe/static/css/main.701dd504.css.map",
-    "main.e0af9207.js.map": "/mcdupe/static/js/main.e0af9207.js.map",
+    "main.dcbdcfed.css.map": "/mcdupe/static/css/main.dcbdcfed.css.map",
+    "main.bc01fae6.js.map": "/mcdupe/static/js/main.bc01fae6.js.map",
     "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.701dd504.css",
-    "static/js/main.e0af9207.js"
+    "static/css/main.dcbdcfed.css",
+    "static/js/main.bc01fae6.js"
   ]
 }
