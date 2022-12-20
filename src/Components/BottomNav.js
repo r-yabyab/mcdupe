@@ -20,9 +20,16 @@ const Headings = [
             <div className='NUBminiRight'>+</div>
         </div>,
         sub: <>
-            <div>sub1</div>
-            <div>sub1</div>
-            <div>sub1</div>
+            <div>About Us</div>
+            <div>Our History</div>
+            <div>Leadership Team</div>
+            <div>Values In Action</div>
+            <div>Franchise Info</div>
+            <div>Recalls & Alerts</div>
+            <div>Real Estate</div>
+            <div>Accessibility</div>
+            <div>Investor Relations</div>
+            <div>News & Notifications</div>
         </>,
     },
     {
@@ -33,9 +40,16 @@ const Headings = [
         </div>,
         sub:
             <>
-                <div>sub2</div>
-                <div>sub2</div>
-                <div>sub2</div>
+                <li>Services Overview</li>
+                <li>Wi-Fi</li>
+                <li>PlayPlaces & Parties</li>
+                <li>McDelivery®</li>
+                <li>Mobile Order & Pay</li>
+                <li>Trending Now</li>
+                <li>McDonald's Merchandise</li>
+                <li>Family Fun Hub</li>
+                <li>MyMcDonald's Rewards</li>
+                <li>McCafé®</li>
             </>,
 
     },
@@ -47,22 +61,29 @@ const Headings = [
         </div>,
         sub:
             <>
-                <div>sub3</div>
-                <div>sub3</div>
-                <div>sub3</div>
+                <li>Community</li>
+                <li>HACER® Scholarships for Hispanic Students</li>
+                <li>Ronald McDonald House Charities</li>
+                <li>McDonald's Asian Pacific American</li>
+                <li>McDonald's International</li>
+                <li>Black and Positively Golden</li>
+                <li>McDonald's LGBTQ+</li>
             </>
     },
     {
-        id:4,
+        id: 4,
         sec: <div className='NUBminiSection'>
             <div className='NUBminiLeft'>Contact Us</div>
             <div className='NUBminiRight'>+</div>
         </div>,
         sub:
             <>
-                <div>sub4</div>
-                <div>sub4</div>
-                <div>sub4</div>
+                <li>Contact Us</li>
+                <li>Gift Card FAQs</li>
+                <li>Donations</li>
+                <li>Employment</li>
+                <li>Customer Feedback</li>
+                <li>Frequently Asked Questions</li>
             </>
     }
 ]
@@ -73,7 +94,7 @@ export function NavUpperBottomMini() {
     
     // const [clickState, setClickState] = useState(false)
 
-    const [clickState, setClickState] = useState(-1)
+    const [clickState, setClickState] = useState(false)
 
 
     // const clickHandler = () => {
@@ -86,7 +107,7 @@ const clickHandler = (index) => {
 console.log('clicked')
 
     if (clickState === index) {
-        setClickState(-1);
+        setClickState(false);
     } else {
         setClickState(index);
     }
@@ -106,22 +127,25 @@ const listById = Headings.filter (x => x.id ===x)
 
                 {Headings.map((x, index) =>
                 (
-                    <ul key={index}>
+                    <ul>
                         <div onClick={() => clickHandler(index)}>
                             {x.sec}
-                            {
+                   <div className={clickState === index ? 'content show' : 'content'}>
+                        {x.sub}
+                   </div>
+                            {/* {
                                 index === clickState ?
                                     (
                                         Headings.map((x, index) => 
                                         (
-                                            <ul key={index}>
+                                            <ul>
                                                 <div>
                                                     {x.sub}
                                                 </div>
                                             </ul>
                                         )))
                                     : null
-                            }
+                            } */}
                         </div>
                     </ul>
                 )

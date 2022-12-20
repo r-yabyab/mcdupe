@@ -16,9 +16,12 @@
 
 
 .navLeft {
+  display: flex;
   float: left;
   margin-left: 20px;
+  padding-left: 0;      /*removes ul indent */
 }
+
 
 .navRight {
   float:right;
@@ -31,6 +34,7 @@
 
 .navPhoto {
   max-width: 100px;
+  max-height: 100px;
   float:left;
 }
 
@@ -49,6 +53,9 @@ li {
   display: block;
   margin: auto;
 }
+
+/* 1 1 1 1 1 1 MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY MEDIA QUERY */
+
 
 @media screen and (min-width:1024px)
 {
@@ -77,11 +84,15 @@ li {
     color:blue;
     margin-top:-70px;
   }
-
+  .NUBminiContainer {
+    display: none;
+  }
 
 }
 
 
+
+/* END QUERY */
 
 .mainContainer {
   position: relative;
@@ -165,7 +176,7 @@ display: inline-flex;
 
 .NUBminiContainer{
   margin:0 22px 0 22px;
-  
+  user-select: none;
 }
 
 .NUBminiSection{
@@ -196,4 +207,79 @@ right:0px;
 
 .red {
   color:blue;
+}
+
+
+.content {
+  max-height: 0;
+overflow: hidden;
+/* transition: all 0.5s cubic-bezier(0,1,0,1) */
+}
+
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  /* transition: all 0.5s cubic-bezier(1,0,1,0) */
+}
+
+/*  */
+
+
+/* vvvvvvvvvvv DropDown TopNav sec */
+
+.DropDownSecContainer{
+  margin:10px 10px 10px 10px;
+}
+
+.DropDownSec1 {
+display: flex;
+flex-direction: column;
+border-bottom: solid 1px lightgray;
+padding: 20px 0 20px 0;
+}
+
+.DropDownSec1 li {
+  cursor:pointer;
+  padding: 14px 0 14px 0;
+  font-size: small;
+
+}
+
+.DropDownSec2 {
+display: flex;
+flex-direction: column;
+border-bottom: solid 1px lightgray;
+padding: 20px 0 20px 0;
+
+}
+
+.DropDownSec2 li {
+  cursor: pointer;
+  padding: 14px 0 14px 0;
+}
+
+.DropDownSec3 {
+display: flex;
+flex-direction: column;
+padding: 20px 0 20px 0;
+border-bottom: solid 1px lightgray;
+
+}
+
+.DropDownSec3 li {
+  cursor: pointer;
+  padding: 14px 0 14px 0;
+  font-size: small;
+
+}
+
+/*  */
+
+
+
+@media screen and (width < 1024px)
+{
+  .NavUpperBottomContainer {
+    display: none;
+  }
 }

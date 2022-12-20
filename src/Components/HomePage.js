@@ -5,8 +5,6 @@ import Button from 'react-bootstrap/Button';
 import goldCard from '../photos/1pub_McGoldCard_1168x520.jpg'
 import sznSharing from '../photos/1pub_DecemberTentpole_HP_Deals_1168x520.jpg'
 import myRewards from '../photos/1pub_McDeliveryintheApp_Launch_1168x520.jpg';
-import MenuBars from '../photos/menu-bars.png'
-import ArchLogo from '../photos/arches-logo_108x108.jpg';
 import Dorado from '../photos/1PUB_Spotlight_Dorado_1168x520.jpg'
 import Scholarship from '../photos/1PUB_BAPG_Scholars_EDU_1168x520.jpg'
 import McDelivery from '../photos/1PUB_McDelivery_v4_1168x520.jpg'
@@ -14,28 +12,8 @@ import DealsForDays from '../photos/1PUB_Desktop_Deals-v1_1168x520.jpg'
 
 function HomePage() {
 
-const [clickState, setClickState] = useState(false)
-
-const clickHandler = () => {
-     setClickState (!clickState) 
-     console.log('clicked')
-}
-
-  return (
-    <>
-<header>
-        <nav className='navbar'>
-          <div className="navLeft">
-            <img src={ArchLogo} alt="arch-logo.jpg" />
-          </div>
-          <div  className="navLeft navMenuDrop">
-            <img className='navPhoto' onClick={clickHandler} src={MenuBars} alt="menu" />
-            {clickState ? <DropDown1 /> : null}
-          </div>
-          <Button variant="warning" className="navRight">Order Now</Button>
-        </nav>
-
-      </header>
+return (
+  <>
 
       {/* 1st section */}
       <div className='mainContainer'>

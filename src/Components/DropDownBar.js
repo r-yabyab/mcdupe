@@ -22,14 +22,14 @@ export function DropDown1() {
 
     return (
         <>
-            {/* this might be a button no style */}
-            <ul className="textOnlyListSmall">
+        <div className="DropDownSecContainer" >
+            <ul className="DropDownSec1">
                 <li>Language</li>
                 <li>Sign Up for Email</li>
                 <li>Careers</li>
             </ul>
 
-            <ul className='textOnlyList'>
+            <ul className='DropDownSec2'>
                 <li>Our Menu</li>
                 <li>Download App</li>
                 <li>MyMcDonald's Rewards</li>
@@ -39,10 +39,11 @@ export function DropDown1() {
                 <li>Gift Cards</li>
             </ul>
 
-            <ul className='textOnlyListSmall'>
+            <ul className='DropDownSec3'>
                 <li>Search</li>
                 <li><a>Change your Location</a></li>
             </ul>
+            </div>
         </>
     )
 
