@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdupe/static/css/main.dcbdcfed.css",
-    "main.js": "/mcdupe/static/js/main.bc01fae6.js",
+    "main.css": "/mcdupe/static/css/main.e6b7b950.css",
+    "main.js": "/mcdupe/static/js/main.6ab9ed72.js",
     "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
     "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
     "static/media/1PUB_Spotlight_Dorado_1168x520.jpg": "/mcdupe/static/media/1PUB_Spotlight_Dorado_1168x520.bd4f786a38bd0e73d5f5.jpg",
@@ -10,15 +10,29 @@
     "static/media/1pub_McGoldCard_1168x520.jpg": "/mcdupe/static/media/1pub_McGoldCard_1168x520.e743f67be3a932a571f0.jpg",
     "static/media/1PUB_BAPG_Scholars_EDU_1168x520.jpg": "/mcdupe/static/media/1PUB_BAPG_Scholars_EDU_1168x520.4596fcb48d837c952e02.jpg",
     "static/media/1PUB_McDelivery_v4_1168x520.jpg": "/mcdupe/static/media/1PUB_McDelivery_v4_1168x520.35b3b7815e34317ebc11.jpg",
+    "static/media/About_Us_Hero_1260x560_Desktop_hero-mobile.jpg": "/mcdupe/static/media/About_Us_Hero_1260x560_Desktop_hero-mobile.c2fda1510f231da0bae3.jpg",
+    "static/media/About_Us_Hero_1260x560_Desktop_hero-desktop.jpg": "/mcdupe/static/media/About_Us_Hero_1260x560_Desktop_hero-desktop.b499f9443d7a876c4d87.jpg",
+    "static/media/Investor_Relations_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/Investor_Relations_2Col_1110x740_Desktop_2-column-desktop.1ee6dfa1cab3b3d8844b.jpg",
+    "static/media/News_Notifications_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/News_Notifications_2Col_1110x740_Desktop_2-column-desktop.aa8696d0667dc3f6118e.jpg",
+    "static/media/Our_History_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/Our_History_2Col_1110x740_Desktop_2-column-desktop.4c208c08e815061e3a2b.jpg",
+    "static/media/Value_In_Action_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/Value_In_Action_2Col_1110x740_Desktop_2-column-desktop.8cb6aa6ceb4bf640a5e8.jpg",
+    "static/media/Leadership_Team_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/Leadership_Team_2Col_1110x740_Desktop_2-column-desktop.bf0c52c559e5342f4330.jpg",
+    "static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-desktop.a187153378d9d74171b9.jpg",
+    "static/media/Investor_Relations_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Investor_Relations_2Col_1110x740_Desktop_2-column-mobile.2cab510a1c06ce53af81.jpg",
     "static/media/google_play_badge.png": "/mcdupe/static/media/google_play_badge.513214132c00ef964087.png",
+    "static/media/News_Notifications_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/News_Notifications_2Col_1110x740_Desktop_2-column-mobile.6418e11f9ab4f7ce2cae.jpg",
     "static/media/app_store_badge.png": "/mcdupe/static/media/app_store_badge.00b1e701c5946b6f986e.png",
+    "static/media/Our_History_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Our_History_2Col_1110x740_Desktop_2-column-mobile.3e9c5acad1b51eedaccc.jpg",
+    "static/media/Value_In_Action_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Value_In_Action_2Col_1110x740_Desktop_2-column-mobile.64bbb6952fa2a1dbaf39.jpg",
+    "static/media/Leadership_Team_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Leadership_Team_2Col_1110x740_Desktop_2-column-mobile.3497f3e103fe2d287483.jpg",
+    "static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.d85d508fb7bbae29fdb1.jpg",
     "index.html": "/mcdupe/index.html",
-    "main.dcbdcfed.css.map": "/mcdupe/static/css/main.dcbdcfed.css.map",
-    "main.bc01fae6.js.map": "/mcdupe/static/js/main.bc01fae6.js.map",
+    "main.e6b7b950.css.map": "/mcdupe/static/css/main.e6b7b950.css.map",
+    "main.6ab9ed72.js.map": "/mcdupe/static/js/main.6ab9ed72.js.map",
     "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcbdcfed.css",
-    "static/js/main.bc01fae6.js"
+    "static/css/main.e6b7b950.css",
+    "static/js/main.6ab9ed72.js"
   ]
 }
