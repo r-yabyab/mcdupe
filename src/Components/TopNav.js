@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import MenuBars from '../photos/menu-bars.png'
 import ArchLogo from '../photos/arches-logo_108x108.jpg';
 import { DropDown1 } from './DropDownBar';
@@ -18,7 +19,7 @@ const clickHandler = () => {
             <header>
                 <nav className='navbar'>
                     <ul className="navLeft">
-                        <li><img src={ArchLogo} alt="arch-logo.jpg" /></li>
+                        <Link to="/"><li><img src={ArchLogo} alt="arch-logo.jpg" /></li></Link>
                         <li>
                         <div className="navLeft navMenuDrop">
                         <img className='navPhoto' onClick={clickHandler} src={MenuBars} alt="menu" />
