@@ -3,6 +3,14 @@ Page needs unique:
 1. main content
 
 
+Need to do:
+- containerize bottom section to absolute
+    - need accordian to not push page up
+
+
+
+
+
 
 npm install gh-pages --save-dev
 
@@ -16,9 +24,61 @@ git push
 
 npm run deploy
 
+/////
+mainContainer JSX
+    <>
+        {/* INITIAL SECTION */}
+        <div className='mainContainer'>
+
+            <div className='contentContainer'>
+                <img className="imgCenter" src={} alt=""></img>
+                <div className='mainText'>
+                    <h1 className='h1h1h1'><strong>
+
+                    </strong></h1>
+                    <p>
+
+                    </p>
+                    <h2><strong>
+
+                    </strong></h2>
+                    <p className='verySmall'>
+
+                    </p>
+
+                    <Button variant="warning">
+
+                    </Button>
+                </div>
+            </div>
+        </div>
+
+        {/* Next Section */}
 
 
 
-NavUpperBottomContainer
+    </>
 
-NUBminiContainer
+
+    ////////
+JSX simple
+
+        {/* INITIAL SECTION */}
+        <div className='mainContainer'>
+            <div className='contentContainer'>
+                <img className="imgCenter" src={} alt=""></img>
+                <div className='mainText'>
+                    <h1 className='h1h1h1'><strong>
+                    
+                    </strong></h1>
+                    <p>
+                    
+                    </p>
+                    <Button variant="warning">
+                        Learn More
+                    </Button>
+                </div>
+            </div>
+        </div>
+
+        {/* Next Section */}

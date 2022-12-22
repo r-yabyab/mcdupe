@@ -1,6 +1,7 @@
 //NavBottom, NavUpperBottom
 
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 import '../App.css'
 import faceBook from '../photos/facebook.png'
 import twitter from '../photos/twitter.png'
@@ -16,7 +17,7 @@ const Headings = [
     {
         id: 1,
         sec: <div className='NUBminiSection'>
-            <div className='NUBminiLeft'>About Us</div>
+            <Link to="/about-us"><div className='NUBminiLeft'>About Us</div></Link>
             <div className='NUBminiRight'>+</div>
         </div>,
         sub: <>
@@ -189,7 +190,7 @@ export function NavUpperBottom() {
 
                 <div className='NavUpperBottomSection'>
                 <ul>
-                  <li className="NavUpperBottomStart"><strong>About Us</strong></li>
+                  <Link to="/about-us"><li className="NavUpperBottomStart"><strong>About Us</strong></li></Link>
                     <li>About Us</li>
                     <li>Our History</li>
                     <li>Leadership Team</li>
