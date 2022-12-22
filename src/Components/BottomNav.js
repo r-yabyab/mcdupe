@@ -17,11 +17,11 @@ const Headings = [
     {
         id: 1,
         sec: <div className='NUBminiSection'>
-            <Link to="/about-us"><div className='NUBminiLeft'>About Us</div></Link>
+            <div className='NUBminiLeft'>About Us</div>
             <div className='NUBminiRight'>+</div>
         </div>,
         sub: <>
-            <div>About Us</div>
+            <Link to="/about-us"><div>About Us</div></Link>
             <div>Our History</div>
             <div>Leadership Team</div>
             <div>Values In Action</div>
@@ -41,7 +41,7 @@ const Headings = [
         </div>,
         sub:
             <>
-                <li>Services Overview</li>
+                <Link to="/services"><li>Services Overview</li></Link>
                 <li>Wi-Fi</li>
                 <li>PlayPlaces & Parties</li>
                 <li>McDelivery®</li>
@@ -190,8 +190,8 @@ export function NavUpperBottom() {
 
                 <div className='NavUpperBottomSection'>
                 <ul>
-                  <Link to="/about-us"><li className="NavUpperBottomStart"><strong>About Us</strong></li></Link>
-                    <li>About Us</li>
+                  <li className="NavUpperBottomStart"><strong>About Us</strong></li>
+                  <Link to="/about-us"><li>About Us</li></Link>
                     <li>Our History</li>
                     <li>Leadership Team</li>
                     <li>Values In Action</li>
@@ -207,7 +207,7 @@ export function NavUpperBottom() {
                 <div className='NavUpperBottomSection'>
                     <ul>
                     <li className="NavUpperBottomStart"><strong>Services</strong></li>
-                    <li>Services Overview</li>
+                    <Link to="/services"><li>Services Overview</li></Link>
                     <li>Wi-Fi</li>
                     <li>PlayPlaces & Parties</li>
                     <li>McDelivery®</li>

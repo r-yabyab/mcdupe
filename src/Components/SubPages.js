@@ -1,24 +1,31 @@
-import React from 'react'
-import {AboutUsHeroD} from '../photos/SubPhotos/About_Us_Hero_1260x560_Desktop_hero-desktop.jpg'
-import {AboutUsHeroM} from '../photos/SubPhotos/About_Us_Hero_1260x560_Desktop_hero-mobile.jpg'
-import {FranchiseD} from '../photos/SubPhotos/Franchise_Info_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {FranchiseM} from '../photos/SubPhotos/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.jpg'
-import {InvestorD} from '../photos/SubPhotos/Investor_Relations_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {InvestorM} from '../photos/SubPhotos/Investor_Relations_2Col_1110x740_Desktop_2-column-mobile.jpg'
-import {LeadershipD} from '../photos/SubPhotos/Leadership_Team_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {LeadershipM} from '../photos/SubPhotos/Leadership_Team_2Col_1110x740_Desktop_2-column-mobile.jpg'
-import {NewsNotificationsD} from '../photos/SubPhotos/News_Notifications_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {NewsNotificationsM} from '../photos/SubPhotos/News_Notifications_2Col_1110x740_Desktop_2-column-mobile.jpg'
-import {OurHistoryD} from '../photos/SubPhotos/Our_History_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {OurHistoryM} from '../photos/SubPhotos/Our_History_2Col_1110x740_Desktop_2-column-mobile.jpg'
-import {RecallsD} from '../photos/SubPhotos/Recalls_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {RecallsM} from '../photos/SubPhotos/Recalls_2Col_1110x740_Desktop_2-column-mobile.jpg'
-import {ValueInActionD} from '../photos/SubPhotos/Value_In_Action_2Col_1110x740_Desktop_2-column-desktop.jpg'
-import {ValueInActionM} from '../photos/SubPhotos/Value_In_Action_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import React, {useEffect} from 'react'
+import { Button } from 'react-bootstrap'
+import AboutUsHeroD from '../photos/SubPhotos/About_Us_Hero_1260x560_Desktop_hero-desktop.jpg'
+import AboutUsHeroM from '../photos/SubPhotos/About_Us_Hero_1260x560_Desktop_hero-mobile.jpg'
+import FranchiseD from '../photos/SubPhotos/Franchise_Info_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import FranchiseM from '../photos/SubPhotos/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import InvestorD from '../photos/SubPhotos/Investor_Relations_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import InvestorM from '../photos/SubPhotos/Investor_Relations_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import LeadershipD from '../photos/SubPhotos/Leadership_Team_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import LeadershipM from '../photos/SubPhotos/Leadership_Team_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import NewsNotificationsD from '../photos/SubPhotos/News_Notifications_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import NewsNotificationsM from '../photos/SubPhotos/News_Notifications_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import OurHistoryD from '../photos/SubPhotos/Our_History_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import OurHistoryM from '../photos/SubPhotos/Our_History_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import RecallsD from '../photos/SubPhotos/Recalls_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import RecallsM from '../photos/SubPhotos/Recalls_2Col_1110x740_Desktop_2-column-mobile.jpg'
+import ValueInActionD from '../photos/SubPhotos/Value_In_Action_2Col_1110x740_Desktop_2-column-desktop.jpg'
+import ValueInActionM from '../photos/SubPhotos/Value_In_Action_2Col_1110x740_Desktop_2-column-mobile.jpg'
 
 //TODO
 //add Mobile Queried images
 export function AboutUs () {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+      
+return (
     <>
         {/* INITIAL SECTION */}
         <div className='mainContainer'>
@@ -167,4 +174,44 @@ export function AboutUs () {
 
         {/* Next Section */}
     </>
+)}
+
+export function Services () {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+    return(
+        <>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        <li>Services Page</li>
+        </>
+    )
 }

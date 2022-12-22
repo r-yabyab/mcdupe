@@ -3,7 +3,7 @@ import HomePage from './Components/HomePage';
 import { Routes, Route } from 'react-router-dom'
 import {NavBottom, NavUpperBottom, NavUpperBottomMini} from './Components/BottomNav'
 import TopNav from './Components/TopNav';
-import { AboutUs } from './Components/SubPages';
+import { AboutUs, Services } from './Components/SubPages';
 
 
 function App () {
@@ -14,6 +14,7 @@ function App () {
         <Routes>
             <Route path='/' element={<HomePage />}/>
             <Route path='/about-us' element={<AboutUs />}/>
+            <Route path='/services' element={<Services />}/>
         </Routes>
         
     <NavUpperBottomMini/>
