@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdupe/static/css/main.e6b7b950.css",
-    "main.js": "/mcdupe/static/js/main.6ab9ed72.js",
+    "main.css": "/mcdupe/static/css/main.e88ec407.css",
+    "main.js": "/mcdupe/static/js/main.c9a970de.js",
     "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
     "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
     "static/media/1PUB_Spotlight_Dorado_1168x520.jpg": "/mcdupe/static/media/1PUB_Spotlight_Dorado_1168x520.bd4f786a38bd0e73d5f5.jpg",
@@ -27,12 +27,12 @@
     "static/media/Leadership_Team_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Leadership_Team_2Col_1110x740_Desktop_2-column-mobile.3497f3e103fe2d287483.jpg",
     "static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.d85d508fb7bbae29fdb1.jpg",
     "index.html": "/mcdupe/index.html",
-    "main.e6b7b950.css.map": "/mcdupe/static/css/main.e6b7b950.css.map",
-    "main.6ab9ed72.js.map": "/mcdupe/static/js/main.6ab9ed72.js.map",
+    "main.e88ec407.css.map": "/mcdupe/static/css/main.e88ec407.css.map",
+    "main.c9a970de.js.map": "/mcdupe/static/js/main.c9a970de.js.map",
     "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6b7b950.css",
-    "static/js/main.6ab9ed72.js"
+    "static/css/main.e88ec407.css",
+    "static/js/main.c9a970de.js"
   ]
 }
