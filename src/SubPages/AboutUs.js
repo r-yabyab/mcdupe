@@ -28,22 +28,23 @@ export function AboutUs () {
 return (
     <>
         {/* INITIAL SECTION */}
-        <div className='mainContainer'>
-            <div className='contentContainer'>
-                <img className="imgCenter" src={AboutUsHeroD} alt=""></img>
-                <div className='mainText'>
+        <div className='mainContainerNoQ'>
+            <div className='contentContainerNoQ'>
+            <h1 className='h1h1h1NoQ'><strong>
+                    About Us
+                    </strong></h1>
+                <img className="imgCenterNoQ" src={AboutUsHeroD} alt=""></img>
+                <div className='mainTextNoQ'>
                     <h1 className='h1h1h1'><strong>
                     Our story starts with one man.
                     </strong></h1>
                     <p>
                     Back in 1954, a man named Ray Kroc discovered a small burger restaurant in California, and wrote the first page of our history. From humble beginnings as a small restaurant, we're proud to have become one of the world's leading food service brands with more than 36,000 restaurants in more than 100 countries.
                     </p>
-                    <Button variant="warning">
-                        Learn More
-                    </Button>
                 </div>
             </div>
         </div>
+
 
         {/* Next Section */}
 
@@ -175,43 +176,3 @@ return (
         {/* Next Section */}
     </>
 )}
-
-export function Services () {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
-    return(
-        <>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        <li>Services Page</li>
-        </>
-    )
-}

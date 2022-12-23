@@ -84,7 +84,7 @@ li {
     text-align: left;
     float:right;
     width: 380px;
-    color:black;
+    color:blue;
     margin-top:-70px;
   }
   .NUBminiContainer {
@@ -106,6 +106,62 @@ li {
   justify-content: center;
   justify-items: center;
 }
+
+
+/* START NoQ */
+/* START NoQ */
+/* START NoQ vvvvvvvvvvvvvvvv*/
+
+.mainContainerNoQ {
+  display: block;
+  padding: 0 7px 0 7px;
+  justify-content: center;
+}
+
+.h1h1h1NoQ {
+  font-size: 42px; 
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight:bolder;
+  padding-top: 80px;
+}
+
+.contentContainerNoQ {
+  display: flex;
+  flex-direction: column;
+    margin: 0px 7px 0px 7px;
+}
+
+.imgCenterNoQ{
+  width: 100%;
+  max-width: 1172px;
+  display: block;
+  margin: auto;
+}
+
+.mainTextNoQ {
+  padding: 80px 12px 80px 12px;
+}
+
+/* END NoQ ^^^^^^^^^^*/
+/* END NoQ */
+/* END NoQ */
+
+.threeRowContainer{
+display: flex;
+justify-content: center;
+
+}
+
+.threeRowItems{
+  width: auto;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px 50px 20px ;
+}
+
+
 
 .navbarBottom {
 background-color: white;

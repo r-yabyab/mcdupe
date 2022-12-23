@@ -3,7 +3,8 @@ import HomePage from './Components/HomePage';
 import { Routes, Route } from 'react-router-dom'
 import {NavBottom, NavUpperBottom, NavUpperBottomMini} from './Components/BottomNav'
 import TopNav from './Components/TopNav';
-import { AboutUs, Services } from './Components/SubPages';
+import {AboutUs} from './SubPages/AboutUs';
+import { Services } from './SubPages/Services';
 
 
 function App () {
