@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdupe/static/css/main.27b65ed1.css",
-    "main.js": "/mcdupe/static/js/main.35fff026.js",
+    "main.css": "/mcdupe/static/css/main.c2f6903b.css",
+    "main.js": "/mcdupe/static/js/main.b313b970.js",
     "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
     "static/media/Services_Hero_1260x560_Desktop.jpg": "/mcdupe/static/media/Services_Hero_1260x560_Desktop.b21853416685a28c0b39.jpg",
     "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
@@ -10,7 +10,9 @@
     "static/media/1pub_McDeliveryintheApp_Launch_1168x520.jpg": "/mcdupe/static/media/1pub_McDeliveryintheApp_Launch_1168x520.d84a162cf2da27575ad4.jpg",
     "static/media/1pub_McGoldCard_1168x520.jpg": "/mcdupe/static/media/1pub_McGoldCard_1168x520.e743f67be3a932a571f0.jpg",
     "static/media/1PUB_BAPG_Scholars_EDU_1168x520.jpg": "/mcdupe/static/media/1PUB_BAPG_Scholars_EDU_1168x520.4596fcb48d837c952e02.jpg",
+    "static/media/history_hero_desktop_1260x560_hero-mobile.jpg": "/mcdupe/static/media/history_hero_desktop_1260x560_hero-mobile.a3efb8f9c73693b49f14.jpg",
     "static/media/1PUB_McDelivery_v4_1168x520.jpg": "/mcdupe/static/media/1PUB_McDelivery_v4_1168x520.35b3b7815e34317ebc11.jpg",
+    "static/media/history_hero_desktop_1260x560_hero-desktop.jpg": "/mcdupe/static/media/history_hero_desktop_1260x560_hero-desktop.aea9d6cf7b8085e13dbb.jpg",
     "static/media/About_Us_Hero_1260x560_Desktop_hero-mobile.jpg": "/mcdupe/static/media/About_Us_Hero_1260x560_Desktop_hero-mobile.c2fda1510f231da0bae3.jpg",
     "static/media/About_Us_Hero_1260x560_Desktop_hero-desktop.jpg": "/mcdupe/static/media/About_Us_Hero_1260x560_Desktop_hero-desktop.b499f9443d7a876c4d87.jpg",
     "static/media/Investor_Relations_2Col_1110x740_Desktop_2-column-desktop.jpg": "/mcdupe/static/media/Investor_Relations_2Col_1110x740_Desktop_2-column-desktop.1ee6dfa1cab3b3d8844b.jpg",
@@ -40,12 +42,12 @@
     "static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.d85d508fb7bbae29fdb1.jpg",
     "static/media/Service-Amenties_3PUB_376x252_3-column-mobile.jpg": "/mcdupe/static/media/Service-Amenties_3PUB_376x252_3-column-mobile.7afb01e370e4210494ae.jpg",
     "index.html": "/mcdupe/index.html",
-    "main.27b65ed1.css.map": "/mcdupe/static/css/main.27b65ed1.css.map",
-    "main.35fff026.js.map": "/mcdupe/static/js/main.35fff026.js.map",
+    "main.c2f6903b.css.map": "/mcdupe/static/css/main.c2f6903b.css.map",
+    "main.b313b970.js.map": "/mcdupe/static/js/main.b313b970.js.map",
     "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27b65ed1.css",
-    "static/js/main.35fff026.js"
+    "static/css/main.c2f6903b.css",
+    "static/js/main.b313b970.js"
   ]
 }
