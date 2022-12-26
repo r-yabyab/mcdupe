@@ -192,7 +192,7 @@ export function NavUpperBottom() {
                 <ul>
                   <li className="NavUpperBottomStart"><strong>About Us</strong></li>
                   <Link to="/about-us"><li>About Us</li></Link>
-                    <li>Our History</li>
+                  <Link to="/about-us/our-history"><li>Our History</li></Link>
                     <li>Leadership Team</li>
                     <li>Values In Action</li>
                     <li>Franchise Info</li>
