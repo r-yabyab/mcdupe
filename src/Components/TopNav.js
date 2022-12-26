@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import MenuBars from '../photos/menu-bars.png'
 import ArchLogo from '../photos/arches-logo_108x108.jpg';
-import { DropDown1 } from './DropDownBar';
+import { DropDown1, OurMenu } from './DropDownBar';
 import { Button } from 'react-bootstrap';
 
 function TopNav () {
@@ -28,7 +28,7 @@ const clickHandler = () => {
                         </li>
                     </ul>
                     <Button variant="warning" className="navRight">Order Now</Button>
-
+                    
                 </nav>
 
             </header>

@@ -1,24 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { Button } from 'bootstrap'
 
 // sidebar dropdown mini menu
 export function DropDown1() {
 
-    // clickHandler = () => {
-    //     return (
-    //         {OurMenu}
-    //     )
-    // }
+let [clickState, setClickState] = useState(false)
 
-    // languageClickHandler = () => {
-    //     return(
-    //         <>
-    //         <ul>
-    //             <li>English</li>
-    //             <li>Espanol</li>
-    //         </ul>
-    //         </>
-    //     )
-    // }
+let clickHandler = () => {
+    setClickState(!clickState)
+    console.log("clicked burger")
+}
 
     return (
         <>
@@ -30,7 +21,8 @@ export function DropDown1() {
             </ul>
 
             <ul className='DropDownSec2'>
-                <li>Our Menu</li>
+                <li onClick={clickHandler}>Our Menu</li>
+                {clickState === true && <OurMenu/>}
                 <li>Download App</li>
                 <li>MyMcDonald's Rewards</li>
                 <li>Exclusive Deals</li>
@@ -54,7 +46,7 @@ export function OurMenu () {
     return(
 <>
     
-<button>View Full Menu</button>
+<button className='btn btn-outline-secondary'>View Full Menu</button>
 
 <ul className="dropMenuContainer">
     <li>
