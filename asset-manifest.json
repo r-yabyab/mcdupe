@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mcdupe/static/css/main.27b65ed1.css",
-    "main.js": "/mcdupe/static/js/main.c1e2aa4d.js",
+    "main.js": "/mcdupe/static/js/main.35fff026.js",
     "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
     "static/media/Services_Hero_1260x560_Desktop.jpg": "/mcdupe/static/media/Services_Hero_1260x560_Desktop.b21853416685a28c0b39.jpg",
     "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
@@ -41,11 +41,11 @@
     "static/media/Service-Amenties_3PUB_376x252_3-column-mobile.jpg": "/mcdupe/static/media/Service-Amenties_3PUB_376x252_3-column-mobile.7afb01e370e4210494ae.jpg",
     "index.html": "/mcdupe/index.html",
     "main.27b65ed1.css.map": "/mcdupe/static/css/main.27b65ed1.css.map",
-    "main.c1e2aa4d.js.map": "/mcdupe/static/js/main.c1e2aa4d.js.map",
+    "main.35fff026.js.map": "/mcdupe/static/js/main.35fff026.js.map",
     "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27b65ed1.css",
-    "static/js/main.c1e2aa4d.js"
+    "static/js/main.35fff026.js"
   ]
 }
