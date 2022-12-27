@@ -5,9 +5,9 @@ import { Button } from 'react-bootstrap'
 
 function OurHistory () {
 
-    // useEffect(() => {
-    //     window.scrollTo(0, 0)
-    // }, [])
+useEffect(() => {
+    window.scrollTo(0, 0)
+}, [])
 
     return (
         <>
