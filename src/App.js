@@ -10,24 +10,20 @@ import OurHistory from './SubPages/OurHistory';
 
 function App () {
 
-useEffect= () => {
-    
-}
-
     return (
         <>
-<TopNav/>
+            <TopNav />
 
-        <Routes>
-            <Route path='/' element={<HomePage />}/>
-            <Route path='/about-us' element={<AboutUs />}/>
-            <Route path='/services' element={<Services />}/>
-            <Route path='/about-us/our-history' element={<OurHistory />}/>
-        </Routes>
+            <Routes>
+                <Route path='/' element={<HomePage />} />
+                <Route path='/about-us' element={<AboutUs />} />
+                <Route path='/services' element={<Services />} />
+                <Route path='/our-history' element={<OurHistory />}/> {/*  needs to be /about-us/ourhistory  */}
+            </Routes>
 
-    <NavUpperBottomMini/>
-    <NavUpperBottom/>
-<NavBottom/>
+            <NavUpperBottomMini />
+            <NavUpperBottom />
+            <NavBottom />
         </>
     )
 }

@@ -6,9 +6,16 @@ Page needs unique:
 Need to do:
 - containerize bottom section to absolute
     - need accordian to not push page up
+- need to make bottomnav queries under the same JSX
+    - atm need to change 2 divs to do 1 thing queried
 
 
-
+CSS Notes:
+- "lg:" 1024 px breakpoint
+- <div className='[&>p]:mt-40'>
+    - targets children.... [&>*]
+- [&>div:first-child]:text-red-400
+    - look into children for multiple divs in section className
 
 
 

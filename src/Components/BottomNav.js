@@ -21,8 +21,8 @@ const Headings = [
             <div className='NUBminiRight'>+</div>
         </div>,
         sub: <>
-            <Link to="/about-us"><div>About Us</div></Link>
-            <div>Our History</div>
+            <Link to="/about-us" className='no-underline'><div>About Us</div></Link>
+            <Link to="/our-history"><div>Our History</div></Link>
             <div>Leadership Team</div>
             <div>Values In Action</div>
             <div>Franchise Info</div>
@@ -92,16 +92,7 @@ const Headings = [
 
 export function NavUpperBottomMini() {
 
-    
-    // const [clickState, setClickState] = useState(false)
-
     const [clickState, setClickState] = useState(false)
-
-
-    // const clickHandler = () => {
-    //     setClickState(!clickState)
-    //     console.log('clicked')
-    // }
 
 //vvvvvvvv from codesandbox
 const clickHandler = (index) => {
@@ -115,7 +106,7 @@ console.log('clicked')
 }
 
 
-const listById = Headings.filter (x => x.id ===x)
+// const listById = Headings.filter (x => x.id ===x)
 
 //for returning things that === 'place4' on Headings array
 // const subItems = Headings.filter(x => x.place ==='place4');
@@ -192,7 +183,7 @@ export function NavUpperBottom() {
                 <ul>
                   <li className="NavUpperBottomStart"><strong>About Us</strong></li>
                   <Link to="/about-us"><li>About Us</li></Link>
-                  <Link to="/about-us/our-history"><li>Our History</li></Link>
+                  <Link to="/our-history"><li>Our History</li></Link>
                     <li>Leadership Team</li>
                     <li>Values In Action</li>
                     <li>Franchise Info</li>

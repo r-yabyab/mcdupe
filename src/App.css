@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-Link {
-  color:red;
-  font-size: 500px;
-}
-
 .h1h1h1 {
   font-size: 27px; 
   font-family: 'Roboto', sans-serif;
