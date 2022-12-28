@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mcdupe/static/css/main.17c8753e.css",
-    "main.js": "/mcdupe/static/js/main.ce4de8bf.js",
+    "main.css": "/mcdupe/static/css/main.f8c0449c.css",
+    "main.js": "/mcdupe/static/js/main.43a98e31.js",
     "static/js/787.c231dbbd.chunk.js": "/mcdupe/static/js/787.c231dbbd.chunk.js",
     "static/media/Services_Hero_1260x560_Desktop.jpg": "/mcdupe/static/media/Services_Hero_1260x560_Desktop.b21853416685a28c0b39.jpg",
     "static/media/1PUB_Desktop_Deals-v1_1168x520.jpg": "/mcdupe/static/media/1PUB_Desktop_Deals-v1_1168x520.06da6fd047a4aba5bd69.jpg",
@@ -42,12 +42,12 @@
     "static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.jpg": "/mcdupe/static/media/Franchise_Info_2Col_1110x740_Desktop_2-column-mobile.d85d508fb7bbae29fdb1.jpg",
     "static/media/Service-Amenties_3PUB_376x252_3-column-mobile.jpg": "/mcdupe/static/media/Service-Amenties_3PUB_376x252_3-column-mobile.7afb01e370e4210494ae.jpg",
     "index.html": "/mcdupe/index.html",
-    "main.17c8753e.css.map": "/mcdupe/static/css/main.17c8753e.css.map",
-    "main.ce4de8bf.js.map": "/mcdupe/static/js/main.ce4de8bf.js.map",
+    "main.f8c0449c.css.map": "/mcdupe/static/css/main.f8c0449c.css.map",
+    "main.43a98e31.js.map": "/mcdupe/static/js/main.43a98e31.js.map",
     "787.c231dbbd.chunk.js.map": "/mcdupe/static/js/787.c231dbbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c8753e.css",
-    "static/js/main.ce4de8bf.js"
+    "static/css/main.f8c0449c.css",
+    "static/js/main.43a98e31.js"
   ]
 }
