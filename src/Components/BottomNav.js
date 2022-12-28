@@ -182,8 +182,8 @@ export function NavUpperBottom() {
                 <div className='NavUpperBottomSection'>
                 <ul>
                   <li className="NavUpperBottomStart"><strong>About Us</strong></li>
-                  <Link to="/about-us"><li>About Us</li></Link>
-                  <Link to="/our-history"><li>Our History</li></Link>
+                  <Link to="/about-us" className='no-underline'><li>About Us</li></Link>
+                  <Link to="/our-history" className='no-underline'><li>Our History</li></Link>
                     <li>Leadership Team</li>
                     <li>Values In Action</li>
                     <li>Franchise Info</li>
@@ -198,7 +198,7 @@ export function NavUpperBottom() {
                 <div className='NavUpperBottomSection'>
                     <ul>
                     <li className="NavUpperBottomStart"><strong>Services</strong></li>
-                    <Link to="/services"><li>Services Overview</li></Link>
+                    <Link to="/services" className='no-underline'><li>Services Overview</li></Link>
                     <li>Wi-Fi</li>
                     <li>PlayPlaces & Parties</li>
                     <li>McDelivery®</li>

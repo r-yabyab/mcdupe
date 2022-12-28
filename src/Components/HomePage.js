@@ -168,7 +168,6 @@ return (
 
 {/* end body */}
 
-<Button variant='secondary' className='rounded-circle'>button1</Button>
 </div>
 
     </>

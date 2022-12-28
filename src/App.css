@@ -12,7 +12,7 @@
   overflow: hidden;
   margin-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  position: fixed;          /*  These two*/      
+  position:relative;         /*  These two*/      
   width: 100%;              /*  makes it sticky on top*/
 } 
 
@@ -20,7 +20,8 @@
 .navLeft {
   display: flex;
   float: left;
-  margin-left: 20px;
+  margin-left: 0px;
+  margin-top:10px;
   padding-left: 0;      /*removes ul indent */
 }
 
@@ -83,7 +84,6 @@ li {
     text-align: left;
     float:right;
     width: 380px;
-    color:blue;
     margin-top:-70px;
   }
   .NUBminiContainer {
@@ -249,7 +249,6 @@ display: inline-flex;
 
 .NUBminiLeft{
   right:0;
-  color:red;
   float:left;
 
 }
