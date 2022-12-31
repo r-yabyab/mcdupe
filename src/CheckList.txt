@@ -8,6 +8,7 @@ Need to do:
     - need accordian to not push page up
 - need to make bottomnav queries under the same JSX
     - atm need to change 2 divs to do 1 thing queried
+- tab icon
 
 
 CSS Notes:

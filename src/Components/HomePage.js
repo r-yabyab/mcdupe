@@ -18,7 +18,7 @@ return (
       {/* 1st section */}
       <div className='mainContainer'>
 
-        <div className='contentContainer'>
+        {/* <div className='contentContainer'>
           <img className="imgCenter" src={goldCard} alt="gold card.jpg"></img>
           <div className='mainText'>
             <h1 className='h1h1h1'><strong>You Could Win Free McDonald's for Life</strong></h1>
@@ -46,10 +46,10 @@ return (
 
             <Button variant="warning">Order with the App</Button>
           </div>
-        </div>
+        </div> */}
         {/* 2nd section */}
 
-        <div className='contentContainer'>
+        {/* <div className='contentContainer'>
           <img className="imgCenter" src={sznSharing} alt="szn Sharing.jpg"></img>
           <div className='mainText'>
             <h1 className='h1h1h1'><strong>Unwrap Deals, Merch & Prizes in the App</strong></h1>
@@ -69,7 +69,7 @@ return (
 
             <Button variant="warning">Order with the App</Button>
           </div>
-        </div>
+        </div> */}
 
         {/* 3rd section */}
         <div className='contentContainer'>
@@ -90,6 +90,27 @@ return (
             <Button variant="warning">Earn Points On McDelivery</Button>
           </div>
         </div>
+
+        {/* 3rd section TAILWIND */}
+        {/* <div className='flex mb-32'>
+          <img className="relative w-[65.6%] h-[100%] box-border ml-[7px] pr-[15px]" src={myRewards} alt="my Rewards.jpg"></img>
+          <div className='relative flex-auto w-[34.4%] pr-[15px] pl-[15px]'>
+            <h1 className='font-extrabold text-[32px]'>Straight to the Points: McDelivery® in the App</h1>
+            <p>
+              The McDonald’s app is now the only place you’ll earn MyMcDonald’s Rewards
+              points on every McDelivery order. Plus, you can get those free McDonald’s
+              rewards you earn delivered, too. Just order, relax and enjoy—we’ll bring
+              your faves to you.*
+            </p>
+            <p className=''>
+              *At participating McDonald's. Only in the app. App registration required.
+              Must be opted into MyMcDonald's Rewards.
+            </p>
+
+            <Button variant="warning">Earn Points On McDelivery</Button>
+          </div>
+        </div> */}
+
 
       {/* 4th Section Latino */}
       <div className='contentContainer'>
